@@ -1,6 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
+def newFuncion(request):
+    print ('holaaaa danny')
+
 def index(request):
     print ('hola hola Daniela')
     print ('hola hola hola')
